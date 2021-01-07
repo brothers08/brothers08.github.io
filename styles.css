@@ -1,0 +1,178 @@
+body {
+	font-family: Palatino;
+}
+
+.bg-color {
+	background-color: #936EB5;
+}
+
+.jumbo-hd {
+    background-color: #F2E07F;
+    opacity: 0.8;
+    color: black !important;
+	margin-top: 5%;
+	width: inherit;
+}
+
+.jumbo-hd > p {
+	font-size: 150% !important;
+}
+
+.logo-center {
+	padding-left: 28%;
+}
+
+.link-center {
+	padding-left: 15%;
+}
+
+nav {
+	font-size: 200%;
+}
+
+.border-bottom {
+	border-width: 3px !important; 
+}
+
+.border-left {
+	border-width: 2px !important;
+	border-color: black !important;
+}
+
+.navbar-nav > a {
+	border-right: 2px solid black;
+}
+
+.navbar-nav > a:hover {
+	color: white !important;
+}
+
+.active {
+	color: #F2E07F !important;
+}
+
+/* Header Parallax Element Style*/ 
+.paral {
+	min-height: 600px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+/* Image for Parallax Section */ 
+.paralimg {
+	background-image: url("images/cover.jpg");
+}
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron {
+	margin-bottom: 0;
+}
+
+.card {
+	border: 1px solid black;
+}
+
+.p-shadow {
+	box-shadow: -12px -12px #936EB5;
+}
+
+.y-shadow {
+	box-shadow: -12px -12px #F2E07F;
+}
+
+.card > .btn {
+	border-radius: 0 !important;
+}
+
+div.p-shadow > .btn {
+	background-color: #F2E07F;
+	color: black;
+	border: none;
+	font-weight: bolder;
+	opacity: 0.9;
+}
+
+div.y-shadow > .btn {
+	background-color: #936EB5;
+	color: black;
+	border: none;
+	font-weight: bolder;
+	opacity: 0.9;
+}
+
+.card > .btn:hover {
+	font-size: 110%;
+	font-weight: bolder;
+	border: none;
+	opacity: 1;
+}
+
+.footer {
+	background-image: url("images/footer.jpg");/* Photo by Greg Trowman on Unsplash */
+	background-size: cover;
+	background-position: center;
+	opacity: 0.7;
+	width: 100%;
+	height: 30vh;
+}
+
+.overlay {
+	background-color: #C0C0C0;
+    opacity: 0.8;
+    color: black !important;
+	width: inherit;
+	margin: 0;
+	height: inherit;
+}
+
+.push-down {
+	margin-top: 8%;
+	opacity: 1;
+}
+
+.push-up {
+	margin-top: -3%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 700px) { 
+	.card {
+		margin-bottom: 5%;
+		margin-left: 2%;
+	}
+	
+	#browse {
+		display: none;
+	}
+	
+	.footer {
+		height: 38vh;
+		width: 61vh;
+	}
+	
+	.overlay {
+		width: inherit;
+		height: inherit;
+		margin-bottom: -10%;
+		margin-left: 0;
+	}
+	
+	.push-up {
+		margin-top: 3%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
