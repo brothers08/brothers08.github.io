@@ -118,8 +118,8 @@ div.y-shadow > .btn {
 	height: 30vh;
 }
 
-.col-6 > h3 {
-	margin-top: 4%;
+h3 {
+	margin-top: 6%;
 }
 
 .overlay {
@@ -140,6 +140,10 @@ div.y-shadow > .btn {
 	margin-top: -3%;
 }
 
+#copyright {
+	margin-bottom: -5%;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 700px) { 
 	body {
@@ -158,6 +162,15 @@ div.y-shadow > .btn {
 	.footer {
 		height: 38vh;
 		width: 100%;
+		margin-top: -5%;
+	}
+	
+	#hours {
+		padding-top: 1%;
+	}
+	
+	#contact {
+		padding-bottom: 5%;
 	}
 	
 	.overlay {
@@ -170,9 +183,33 @@ div.y-shadow > .btn {
 	.push-up {
 		margin-top: 3%;
 	}
+	
+	#copyright {
+		margin-top: 10%;
+		margin-bottom: -5%;
+	}
 }
+/* XS devices (500px and lower) */
+@media screen and (max-width: 500px) { 
+	body {
+		width: 100%;
+	}
+	
+	.footer {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.footer > .row {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.push-up {
 
-
+	}
+}
 
 
 
