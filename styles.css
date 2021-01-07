@@ -118,6 +118,10 @@ div.y-shadow > .btn {
 	height: 30vh;
 }
 
+.col-6 > h3 {
+	margin-top: 4%;
+}
+
 .overlay {
 	background-color: #C0C0C0;
     opacity: 0.8;
