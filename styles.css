@@ -145,7 +145,7 @@ h3 {
 }
 
 /* Small devices (landscape phones, 501px and up) */
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 801px) { 
 	body {
 		width: 100%;
 	}
