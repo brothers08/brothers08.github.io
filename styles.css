@@ -175,6 +175,25 @@ h3 {
 	padding-bottom: 2%;
 }
 
+.contact-overlay {
+	background: linear-gradient(to bottom right, #936eb5 70%, #f2e07f 108%);
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px 3px;
+}
+
+.contact-hours {
+	background-color: #D9C972;
+    opacity: 0.8;
+    color: black !important;
+	width: inherit;
+	height: inherit;
+}
+
+#submit {
+	background-color: #D9C972;
+	font-weight: bolder;
+}
+
 .push-down {
 	margin-top: 8%;
 	opacity: 1;
@@ -240,6 +259,11 @@ h3 {
 		border-radius: 5px;
 		width: 80%;
 	}
+	
+	.contact-overlay {
+		width: 85% !important;
+		margin-bottom: 10% !important;
+	}
 }
 /* XS devices (500px and lower) */
 @media screen and (max-width: 500px) { 
@@ -293,12 +317,24 @@ h3 {
 		border-radius: 5px;
 		width: 80%;
 	}
+	
+	.contact-overlay {
+		width: 85% !important;
+	}
 }
 
 /* Pixel screen */
 @media screen and (max-width: 415px) {
 	.middle {
 		margin-top: 0;
+	}
+	
+	.contact-hours, .contact-overlay {
+		width: 90% !important;
+	}
+	
+	.contact-overlay {
+		margin-bottom: 10% !important;
 	}
 }
 
