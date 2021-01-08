@@ -264,6 +264,10 @@ h3 {
 		width: 85% !important;
 		margin-bottom: 10% !important;
 	}
+	
+	.owner {
+		width: 100% !important;
+	}
 }
 /* XS devices (500px and lower) */
 @media screen and (max-width: 500px) { 
@@ -292,6 +296,10 @@ h3 {
 	
 	.middle {
 		margin-top: 4%;
+	}
+	
+	.owner {
+		width: 100% !important;
 	}
 }
 
