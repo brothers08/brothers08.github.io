@@ -74,6 +74,26 @@ nav {
 	border: 1px solid black;
 }
 
+#natural, #braids {
+	background-color: #D9C972;
+	margin-right: 25%;
+	margin-left: 25%;
+	border-radius: 100px;
+    box-shadow: -5px 6px;
+}
+
+#locs {
+	background-color: #936EB5;
+	margin-right: 25%;
+	margin-left: 25%;
+	border-radius: 100px;
+    box-shadow: -5px 6px;
+}
+
+h5 {
+	font-weight: 900 !important;
+}
+
 .p-shadow {
 	box-shadow: -12px -12px #936EB5;
 }
@@ -100,6 +120,29 @@ div.y-shadow > .btn {
 	border: none;
 	font-weight: bolder;
 	opacity: 0.9;
+}
+
+div.p-shadow > .btn:visited {
+	background-color: #F2E07F;
+	color: black;
+	border: none;
+	font-weight: bolder;
+	opacity: 0.9;
+}
+
+div.y-shadow > .btn:visited {
+	background-color: #936EB5;
+	color: black;
+	border: none;
+	font-weight: bolder;
+	opacity: 0.9;
+}
+
+.card > .btn:active {
+	text-transform: uppercase;
+	font-weight: bolder;
+	border-bottom: 1px solid transparent !important;
+	opacity: 1;
 }
 
 .card > .btn:hover {
@@ -188,6 +231,15 @@ h3 {
 	#copyright {
 		margin-top: 10%;
 	}
+	
+	#natural, #locs, #braids {
+		padding-top: 5%;
+		padding-bottom: 5%;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		border-radius: 5px;
+		width: 80%;
+	}
 }
 /* XS devices (500px and lower) */
 @media screen and (max-width: 500px) { 
@@ -206,11 +258,20 @@ h3 {
 		width: 100%;
 	}
 	
-	.push-up {
-
+	#natural, #locs, #braids {
+		padding-top: 5%;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		border-radius: 5px;
+		width: 80%;
+	}
+	
+	.middle {
+		margin-top: 4%;
 	}
 }
 
+/* Large Screens */
 @media screen and (min-width: 850px) {
 	.nav-items {
 		margin-left: 25% !important;
@@ -222,6 +283,29 @@ h3 {
 	.nav-items {
 		margin-left: auto !important;
 		margin-right: auto !important;
+	}
+	
+	#natural, #locs, #braids {
+		padding-top: 5%;
+		padding-bottom: 5%;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		border-radius: 5px;
+		width: 80%;
+	}
+}
+
+/* Pixel screen */
+@media screen and (max-width: 415px) {
+	.middle {
+		margin-top: 0;
+	}
+}
+
+/* iPhone 5/SE screen */
+@media screen and (max-width: 325px) {
+	.middle {
+		margin-top: 0;
 	}
 }
 
