@@ -103,9 +103,9 @@ div.y-shadow > .btn {
 }
 
 .card > .btn:hover {
-	font-size: 110%;
+	text-transform: uppercase;
 	font-weight: bolder;
-	border: none;
+	border-bottom: 1px solid transparent !important;
 	opacity: 1;
 }
 
@@ -144,7 +144,7 @@ h3 {
 	margin-bottom: -5%;
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 501px and up) */
 @media screen and (max-width: 700px) { 
 	body {
 		width: 100%;
@@ -208,6 +208,13 @@ h3 {
 	
 	.push-up {
 
+	}
+}
+
+@media screen and (min-width: 850px) {
+	.nav-items {
+		margin-left: 25% !important;
+		margin-right: 0 !important;
 	}
 }
 
