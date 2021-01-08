@@ -218,6 +218,13 @@ h3 {
 	}
 }
 
+@media screen and (max-width: 1050px) {
+	.nav-items {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
 
 
 
